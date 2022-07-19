@@ -1,0 +1,24 @@
+[user]
+	name = Richard Thai
+	email = richard.thai@discordapp.com
+[core]
+	bare = false
+	editor = emacs
+	excludesfile = ~/.gitignore_global
+	filemode = true
+	ignorecase = false
+	logallrefupdates = true
+	precomposeunicode = true ; only used on Mac OS
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset --soft HEAD^
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	cp = cherry-pick
+	when = log --pretty="format:%Cgreen%h% %Cred%d %Cblue%cr%Creset" --abbrev-commit --all --grep
+[fetch]
+	prune = true
+[color]
+	ui = auto

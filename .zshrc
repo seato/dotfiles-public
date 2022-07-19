@@ -29,6 +29,9 @@ alias ios="clyde ios build --run"
 
 
 #### ZSH specific config
+# Delete key on Mac keyboard inserts ~ instead. This fixes it.
+# https://superuser.com/a/1078653
+bindkey "^[[3~" delete-char
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
