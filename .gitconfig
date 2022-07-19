@@ -5,7 +5,6 @@
 	bare = false
 	editor = emacs
 	excludesfile = ~/.gitignore_global
-	filemode = true
 	ignorecase = false
 	logallrefupdates = true
 	precomposeunicode = true ; only used on Mac OS
